@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="untitled" targetName="untitled" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5cda0c0b-9dba-4cdb-ac3b-b1a4669e3dba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README_ENG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../devLog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/classie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/modernizr.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/notificationFx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/ns-default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/translations/bg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/translations/da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/translations/de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/translations/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/translations/es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/translations/fr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/translations/hu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/translations/nl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/alert/translations/ru.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/calendarfetcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/node_helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/ical.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/node-ical.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/test/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/test/test1.ics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/test/test10.ics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/test/test11.ics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/test/test2.ics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/test/test3.ics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/test/test4.ics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/test/test5.ics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/test/test6.ics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/test/test7.ics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/test/test8.ics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/calendar/vendor/ical.js/test/test9.ics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/clock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/clock_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/clock_styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/faces/face-001.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/faces/face-002.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/faces/face-003.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/faces/face-004.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/faces/face-005.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/faces/face-006.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/faces/face-007.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/faces/face-008.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/faces/face-009.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/faces/face-010.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/faces/face-011.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/clock/faces/face-012.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/compliments/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/compliments/compliments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/compliments/compliments_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/currentweather/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/currentweather/currentweather.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/currentweather/currentweather.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/currentweather/weather_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/defaultmodules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/helloworld/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/helloworld/helloworld.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/helloworld/helloworld.njk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/newsfeed/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/newsfeed/fetcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/newsfeed/newsfeed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/newsfeed/newsfeed_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/newsfeed/node_helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/newsfeed/translations/de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/newsfeed/translations/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/newsfeed/translations/es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/newsfeed/translations/fr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/updatenotification/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/updatenotification/node_helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/updatenotification/updatenotification.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weather/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weather/current.njk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weather/current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weather/forecast.njk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weather/forecast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weather/providers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weather/providers/darksky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weather/providers/openweathermap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weather/weather.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weather/weather.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weather/weatherobject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weather/weatherprovider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weatherforecast/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weatherforecast/forecast_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weatherforecast/weatherforecast.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modules/default/weatherforecast/weatherforecast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ConfigUrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Constant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/api/AxiosAPI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/api/ForAction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Clock.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/FineDust.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Loading.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Main.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/MyList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/PlayList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/SearchYoutube.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/SearchedList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Weather.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/YoutubeController.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/youtube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/store/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/store/mutations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/store/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/images/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/images/ui-icons_555555_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/images/ui-icons_777620_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/images/ui-icons_777777_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/images/ui-icons_cc0000_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/jquery-ui.theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/weather-icons-wind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/css/weather-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/font/weathericons-regular-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/font/weathericons-regular-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/font/weathericons-regular-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/font/weathericons-regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/font/weathericons-regular-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/icons/42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/listing-option.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/fill.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-alien.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-barometer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-celsius.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-cloud-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-cloud-refresh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-cloud-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-cloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-cloudy-gusts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-cloudy-windy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-cloudy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-cloudy-gusts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-cloudy-high.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-cloudy-windy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-cloudy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-fog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-hail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-haze.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-light-wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-lightning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-rain-mix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-rain-wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-showers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-sleet-storm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-sleet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-snow-thunderstorm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-snow-wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-sprinkle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-storm-showers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-sunny-overcast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-sunny.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-thunderstorm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-day-windy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-degrees.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-direction-down-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-direction-down-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-direction-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-direction-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-direction-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-direction-up-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-direction-up-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-direction-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-dust.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-earthquake.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-fahrenheit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-fire.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-flood.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-fog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-gale-warning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-hail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-horizon-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-horizon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-hot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-humidity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-hurricane-warning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-hurricane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-lightning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-lunar-eclipse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-meteor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-first-quarter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-new.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-third-quarter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waning-crescent-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waning-crescent-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waning-crescent-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waning-crescent-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waning-crescent-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waning-crescent-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waning-gibbous-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waning-gibbous-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waning-gibbous-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waning-gibbous-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waning-gibbous-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waning-gibbous-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waxing-crescent-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waxing-crescent-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waxing-crescent-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waxing-crescent-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waxing-crescent-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waxing-crescent-6 .svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waxing-gibbous-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waxing-gibbous-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waxing-gibbous-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waxing-gibbous-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waxing-gibbous-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-alt-waxing-gibbous-6 .svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-first-quarter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-new.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-third-quarter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waning-crescent-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waning-crescent-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waning-crescent-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waning-crescent-4 .svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waning-crescent-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waning-crescent-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waning-gibbous-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waning-gibbous-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waning-gibbous-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waning-gibbous-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waning-gibbous-5 .svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waning-gibbous-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waxing-crescent-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waxing-crescent-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waxing-crescent-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waxing-crescent-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waxing-crescent-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waxing-crescent-6 .svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waxing-gibbous-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waxing-gibbous-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waxing-gibbous-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waxing-gibbous-4 .svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waxing-gibbous-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moon-waxing-gibbous-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moonrise.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-moonset.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-na.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-cloudy-gusts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-cloudy-high.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-cloudy-windy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-cloudy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-hail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-lightning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-partly-cloudy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-rain-mix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-rain-wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-showers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-sleet-storm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-sleet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-snow-thunderstorm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-snow-wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-sprinkle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-storm-showers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-alt-thunderstorm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-clear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-cloudy-gusts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-cloudy-high.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-cloudy-windy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-cloudy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-fog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-hail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-lightning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-partly-cloudy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-rain-mix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-rain-wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-showers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-sleet-storm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-sleet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-snow-thunderstorm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-snow-wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-sprinkle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-storm-showers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-night-thunderstorm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-rain-mix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-rain-wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-raindrop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-raindrops.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-refresh-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-refresh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-sandstorm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-showers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-sleet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-small-craft-advisory.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-smog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-smoke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-snow-wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-snowflake-cold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-solar-eclipse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-sprinkle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-stars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-storm-showers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-storm-warning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-strong-wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-sunrise.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-sunset.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-thermometer-exterior.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-thermometer-internal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-thermometer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-thunderstorm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-time-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-time-10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-time-11.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-time-12.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-time-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-time-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-time-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-time-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-time-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-time-7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-time-8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-time-9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-tornado.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-train.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-tsunami.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-umbrella.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-volcano.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-beaufort-0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-beaufort-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-beaufort-10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-beaufort-11.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-beaufort-12.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-beaufort-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-beaufort-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-beaufort-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-beaufort-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-beaufort-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-beaufort-7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-beaufort-8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-beaufort-9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-wind-deg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/wicons/wi-windy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/images/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/jquery-migrate-1.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/js/jquery-ui.min.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-260">
+              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.c" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="untitled" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled" TARGET_NAME="untitled" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled" RUN_TARGET_NAME="untitled">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cda0c0b-9dba-4cdb-ac3b-b1a4669e3dba" name="Default Changelist" comment="" />
+      <created>1554340865882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554340865882</updated>
+      <workItem from="1554340867058" duration="6496000" />
+      <workItem from="1554887447454" duration="1342000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7838000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

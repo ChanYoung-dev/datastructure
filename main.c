@@ -36,7 +36,7 @@ Element peek()
     return data[top];
 }
 
-double calc_postfix(char expr[])
+int calc_postfix(char expr[])
 {
     char c;
     int i=0;

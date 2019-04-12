@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_STACK_SIZE 100      // 스택 요소 저장을 위한 배열의 크기
-typedef double Element;           // 스택 요소의 자료형 정의
+typedef int Element;           // 스택 요소의 자료형 정의
 
 
 Element data[MAX_STACK_SIZE];   // 실제 스택요소의 배열
@@ -36,38 +36,59 @@ Element peek()
     return data[top];
 }
 
-int calc_postfix(char expr[])
+int precedence(char op)
 {
-    char c;
-    int i=0;
-    double val,val1,val2;
+    switch (op)
+    {
+        case'(': case ')': return 0;
+        case'+': case'-': return 1;
+        case'*': case'/': return 2;
+    }
+    return -1;
+}
+
+void infix_to_postfix(char expr[])
+{
+    int i = 0;
+    char c, op;
 
     init_stack();
-    while(expr[i]!='\0'){
-        c=expr[i++];
-        if(c>='0'&&c<='9'){
-            val = c -'0';
-            push(val);
+    while (expr[i] != '\0') {
+        c = expr[i++];
+        if ((c >= '0' && c <= '9')){
+            printf("%c", c);
         }
-        else if(c=='+' || c=='-'|| c=='*'|| c=='/'){
-            val2=pop();
-            val1=pop();
-            switch(c){
-                case '+': push(val1+val2);break;
-                case '-': push(val1-val2);break;
-                case '*': push(val1*val2);break;
-                case '/': push(val1/val2);break;
+        else if (c == '(')
+            push(c);
+        else if (c == ')') {
+            while (is_empty() == 0) {
+                op = pop();
+                if (op == '(')break;
+                else printf("%c", op);
             }
         }
+        else if (c == '+' || c == '-' || c == '*' || c == '/') {
+            while (is_empty() == 0) {
+                op = peek();
+                if (precedence(c) <= precedence(op)) {
+                    printf("%c", op);
+                    pop();
+                } else break;
+            }
+            push(c);
+        }
     }
-    return pop();
+            while (is_empty() == 0)
+                printf("%c", pop());
+            printf("\n");
 }
-
-void main()
+int main()
 {
-    char expr[2][80]={"8 2 / 3- 3 2 * +", "1 2 / 4 * 1 4 / *"};
+    char expr[2][80]={"8 /2 - 3 + ( 3* 2)", "1 / 2 * 4 * ( 1 / 4)"};
 
-    printf("수식: %s = %lf\n",expr[0],calc_postfix(expr[0]));
-    printf("수식: %s = %lf\n",expr[1],calc_postfix(expr[1]));
+    printf("중위수식: %s ==> 후위수식:",expr[0]);
+    infix_to_postfix(expr[0]);
+    printf("중위수식: %s ==> 후위수식:",expr[1]);
+    infix_to_postfix(expr[1]);
+    return 0;
 }
-

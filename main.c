@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 #define MAX_QUEUE_SIZE    100
 
 typedef int Element;
@@ -40,6 +41,36 @@ Element peek()
     return data[(front + 1) % MAX_QUEUE_SIZE];
 }
 
+
+void init_deque() { init_queue(); }
+void add_rear(Element val) { enqueue(val); }
+Element delete_front() { return dequeue(); }
+Element get_front() { return peek(); }
+
+void add_front(Element val)
+{
+    if (is_full())
+        error("  덱 포화 에러");
+    data[front] = val;
+    front = (front - 1 + MAX_QUEUE_SIZE) % MAX_QUEUE_SIZE;
+}
+
+Element delete_rear()
+{
+    int prev = rear;
+    if (is_empty())
+        error("  덱 공백 에러");
+    rear = (rear - 1 + MAX_QUEUE_SIZE) % MAX_QUEUE_SIZE;
+    return data[prev];
+}
+
+Element get_rear()
+{
+    if (is_empty())
+        error("  덱 공백 에러");
+    return data[rear];
+}
+
 // 큐 테스트를 위한 코드: 요소 종류마다 수정
 void print_queue(char msg[]) {
     int i, maxi = rear;
@@ -50,18 +81,22 @@ void print_queue(char msg[]) {
     printf("\n");
 }
 
+void print_deque(char msg[]) { print_queue(msg); }
+
 int main()
 {
     int i;
 
-    init_queue();
-    for (i = 1; i<10; i++)
-        enqueue(i);
-    print_queue("선형큐 enqueue 9회");
-    printf("\tdequeue() --> %d\n", dequeue());
-    printf("\tdequeue() --> %d\n", dequeue());
-    printf("\tdequeue() --> %d\n", dequeue());
-    print_queue("선형큐 dequeue 3회");
+    init_deque();
+    for (i = 1; i<10; i++) {
+        if (i % 2) add_front(i);
+        else add_rear(i);
+    }
+    print_deque("원형 덱 홀수-짝수  ");
+    printf("\tdelete_front() --> %d\n", delete_front());
+    printf("\tdelete_rear () --> %d\n", delete_rear());
+    printf("\tdelete_front() --> %d\n", delete_front());
+    print_deque("원형 덱 삭제-홀짝홀");
 
     return 0;
 }

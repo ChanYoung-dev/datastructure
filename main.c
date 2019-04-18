@@ -1,94 +1,67 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define MAX_STACK_SIZE 100      // 스택 요소 저장을 위한 배열의 크기
-typedef int Element;           // 스택 요소의 자료형 정의
+#define MAX_QUEUE_SIZE    100
 
+typedef int Element;
+Element data[MAX_QUEUE_SIZE];    // 요소의 배열
+int    front;            // 전단
+int    rear;            // 후단
 
-Element data[MAX_STACK_SIZE];   // 실제 스택요소의 배열
-int top;                        // 실제 스택의 top
-
-void error(char str[])          // 오류 상황 처리를 위한 함수
+// 프로그램 3.1의 error()함수와 동일
+void error(char* str)
 {
-    printf("%s\n", str);
+    fprintf(stderr, "%s\n", str);
     exit(1);
-}
+};
+// 큐의 주요 연산: 공통
+void init_queue() { front = rear = 0; ; }
+int is_empty() { return front == rear; }
+int is_full() { return front == (rear + 1) % MAX_QUEUE_SIZE; }
+int size() { return(rear - front + MAX_QUEUE_SIZE) % MAX_QUEUE_SIZE; }
 
-void init_stack() { top = -1; }
-int is_empty() { return top == -1; }
-int is_full() { return top == MAX_STACK_SIZE - 1; }
-int size() { return top + 1; }
-
-void push(Element e)
+void enqueue(Element val)
 {
     if (is_full())
-        error("스택 포화 에러");
-    data[++top] = e;
+        error("  큐 포화 에러");
+    rear = (rear + 1) % MAX_QUEUE_SIZE;
+    data[rear] = val;
 }
-Element pop() {
+Element dequeue()
+{
     if (is_empty())
-        error("스택 공백 에러");
-    return data[top--];
+        error("  큐 공백 에러");
+    front = (front + 1) % MAX_QUEUE_SIZE;
+    return data[front];
 }
 Element peek()
 {
     if (is_empty())
-        error("스택 공백 에러");
-    return data[top];
+        error("  큐 공백 에러");
+    return data[(front + 1) % MAX_QUEUE_SIZE];
 }
 
-int precedence(char op)
-{
-    switch (op)
-    {
-        case'(': case ')': return 0;
-        case'+': case'-': return 1;
-        case'*': case'/': return 2;
-    }
-    return -1;
+// 큐 테스트를 위한 코드: 요소 종류마다 수정
+void print_queue(char msg[]) {
+    int i, maxi = rear;
+    if (front >= rear) maxi += MAX_QUEUE_SIZE;
+    printf("%s[%2d]= ", msg, size());
+    for (i = front + 1; i <= maxi; i++)
+        printf("%2d ", data[i%MAX_QUEUE_SIZE]);
+    printf("\n");
 }
 
-void infix_to_postfix(char expr[])
-{
-    int i = 0;
-    char c, op;
-
-    init_stack();
-    while (expr[i] != '\0') {
-        c = expr[i++];
-        if ((c >= '0' && c <= '9')){
-            printf("%c", c);
-        }
-        else if (c == '(')
-            push(c);
-        else if (c == ')') {
-            while (is_empty() == 0) {
-                op = pop();
-                if (op == '(')break;
-                else printf("%c", op);
-            }
-        }
-        else if (c == '+' || c == '-' || c == '*' || c == '/') {
-            while (is_empty() == 0) {
-                op = peek();
-                if (precedence(c) <= precedence(op)) {
-                    printf("%c", op);
-                    pop();
-                } else break;
-            }
-            push(c);
-        }
-    }
-            while (is_empty() == 0)
-                printf("%c", pop());
-            printf("\n");
-}
 int main()
 {
-    char expr[2][80]={"8 /2 - 3 + ( 3* 2)", "1 / 2 * 4 * ( 1 / 4)"};
+    int i;
 
-    printf("중위수식: %s ==> 후위수식:",expr[0]);
-    infix_to_postfix(expr[0]);
-    printf("중위수식: %s ==> 후위수식:",expr[1]);
-    infix_to_postfix(expr[1]);
+    init_queue();
+    for (i = 1; i<10; i++)
+        enqueue(i);
+    print_queue("선형큐 enqueue 9회");
+    printf("\tdequeue() --> %d\n", dequeue());
+    printf("\tdequeue() --> %d\n", dequeue());
+    printf("\tdequeue() --> %d\n", dequeue());
+    print_queue("선형큐 dequeue 3회");
+
     return 0;
 }

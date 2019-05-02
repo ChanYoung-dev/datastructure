@@ -9,6 +9,6 @@
 /Users/gimchan-yeong/Desktop/datastructure/main.c
 stdio.h
 -
-stdlib.h
+string.h
 -
 
